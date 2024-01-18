@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
+  const name = "리액트";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {name === "리액트" && <div>리액트가 아닙니다.</div>}
+      <div>오늘도 화이팅</div>
+      <div>코딩은 정말 재밌어 아하하</div>
+      <div className="App">헬로</div>
+      //이런주석은 안됩니다.
+    </>
   );
 }
 
